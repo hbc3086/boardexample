@@ -13,7 +13,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * Swgger 설정
- * @author 송자바
  */
 @Configuration
 @EnableSwagger2
@@ -28,7 +27,7 @@ public class SwaggerConfiguration {
 		Docket docket = new Docket(DocumentationType.SWAGGER_2);
 		docket.apiInfo(apiInfo.build());
 		
-		ApiSelectorBuilder apis = docket.select().apis(RequestHandlerSelectors.basePackage("kr.co.songjava.mvc.controller"));
+		ApiSelectorBuilder apis = docket.select().apis(RequestHandlerSelectors.basePackage("kr.co.songjava"));
 		apis.paths(PathSelectors.ant("/**"));
 		
 		return apis.build();

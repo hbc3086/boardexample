@@ -7,7 +7,6 @@ import lombok.Data;
 
 /**
  * MySQL 페이지 요청 정보 및 계산된 값
- * @author 송자바
  */
 @Data
 public class MySQLPageRequest {

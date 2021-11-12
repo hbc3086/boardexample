@@ -2,7 +2,6 @@ package kr.co.songjava.mvc.domain;
 
 /**
  * 기본 CodeLabelEnum.
- * @author 송자바
  */
 public interface BaseCodeLabelEnum {
 

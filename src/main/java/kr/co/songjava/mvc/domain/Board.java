@@ -6,7 +6,6 @@ import lombok.Data;
 
 /**
  * 게시물
- * @author 송자바
  */
 @Data
 public class Board {

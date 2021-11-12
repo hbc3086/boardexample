@@ -13,7 +13,6 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * Mybatis 설정
- * @author 송자바
  */
 @Configuration
 @MapperScan(basePackages = "kr.co.songjava.mvc.repository")

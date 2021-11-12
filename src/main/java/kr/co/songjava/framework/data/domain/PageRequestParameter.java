@@ -4,7 +4,6 @@ import lombok.Data;
 
 /**
  * 페이지 요청정보와 파라메터 정보.
- * @author 송자바
  * @param <T>
  */
 @Data

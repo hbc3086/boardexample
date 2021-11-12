@@ -12,7 +12,6 @@ import kr.co.songjava.mvc.parameter.BoardSearchParameter;
 
 /**
  * 게시판 Repository
- * @author 송자바
  */
 @Repository
 public interface BoardRepository {
@@ -22,7 +21,6 @@ public interface BoardRepository {
 	Board get(int boardSeq);
 	
 	void save(BoardParameter board);
-	void saveList(Map<String, Object> paramMap);
 	
 	void update(BoardParameter board);
 	

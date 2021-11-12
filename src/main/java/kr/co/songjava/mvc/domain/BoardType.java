@@ -2,7 +2,6 @@ package kr.co.songjava.mvc.domain;
 
 /**
  * 게시판 종류
- * @author 송자바
  */
 public enum BoardType implements BaseCodeLabelEnum {
 	

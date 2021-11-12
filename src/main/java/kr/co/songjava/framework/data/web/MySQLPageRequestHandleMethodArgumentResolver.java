@@ -15,7 +15,6 @@ import kr.co.songjava.framework.data.domain.MySQLPageRequest;
 
 /**
  * MySQL 쿼리 페이징 LIMIT, OFFSET 값을 자동계산하여 MysqlPageRequest 클래스 담아서 컨트롤러에서 받을 수 있게함.
- * @author 송자바
  */
 public class MySQLPageRequestHandleMethodArgumentResolver implements HandlerMethodArgumentResolver {
 

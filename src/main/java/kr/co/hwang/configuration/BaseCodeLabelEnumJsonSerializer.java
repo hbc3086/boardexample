@@ -13,7 +13,6 @@ import kr.co.hwang.mvc.domain.BaseCodeLabelEnum;
 
 /**
  * JSON 변환시 BaseCodeLabelEnum 클래스에 대한 변환을 동일하게 처리.
- * 
  */
 public class BaseCodeLabelEnumJsonSerializer extends JsonSerializer<BaseCodeLabelEnum> {
 

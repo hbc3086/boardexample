@@ -1,22 +1,23 @@
-# (Back end) Spring Boot 쉽게 동영상 보면서 배우기
-- E01 서버개발 프로젝트 생성 + Mybatis + MariaDB 연동 : https://youtu.be/AcbzhJoQ-OY
-- E02 lombok설치 + Mybatis 설정 + 간단한 게시판 Api 구현 : https://youtu.be/YYlXmkpjRrU
-- E03 Swagger 설치 + 게시판 API 문서화 : https://youtu.be/groXYLpRndI
-- E04 공통 Response class, enum 사용하기 : https://youtu.be/kSII5YLTX2o
-- E05 Spring Message(다국어) 설정 + ControllerAdvice 사용법 + 간편한 데이터 검증/예외처리 : https://youtu.be/UOUTNs_86o8
-- E06 Interceptor, Logback 사용법 : https://www.youtube.com/watch?v=WWZfsbJMXGo
-- E07 Mybatis + MariaDB 활용하여 10000건 이상의 데이터 초스피드로 INSERT
-# 게시판 테이블 DDL
+# 스프링부트와 마리아DB, 뷰를 이용하여 게시판 만들기
+강의를 보면서 스프링부트를 사용하여 만든 api 형태의 게시판을 백엔드로 이용하였고 프론트쪽을 뷰를 사용하여 화면을 구성하였습니다. 로그인에서 스프링시큐리티를 처음 사용해보아서 많은 어려움이 있었지만 새로운 것을 배워나가면서 많은 흥미를 가지게 되었습니다.
 
-CREATE TABLE `T_BOARD` (
-  `BOARD_SEQ` int(11) NOT NULL AUTO_INCREMENT,
-  `TITLE` varchar(100) NOT NULL,
-  `CONTENTS` text NOT NULL,
-  `REG_DATE` datetime NOT NULL,
-  PRIMARY KEY (`BOARD_SEQ`)
-) ENGINE=InnoDB AUTO_INCREMENT=23 DEFAULT CHARSET=utf8 COMMENT='게시판';
+# 프론트엔드
++ Vue, Vue-Router
++ BootStrap
++ 로그인, 회원가입 구현
++ 전체 게시물페이지 구현(커뮤니티, 공지사항, 자주묻는질문, 1:1문의)
++ 제목 클릭 시 상세게시물 조회, 수정
++ 게시물 새로 등록, 삭제
++ 제목을 입력하여 게시물 검색
 
-# 게시판 테이블 샘플 QUERY
+# 백엔드
 
-INSERT INTO T_BOARD (TITLE,CONTENTS,REG_DATE) VALUES
-  ('테스트','테스트 컨텐츠','2020-10-06 23:17:38.0');
++ Spring Boot, Spring Security, Jwt
++ accessToken을 이용하여 로그인, 회원가입, 로그아웃 , api 제공
++ 전체 게시물, 상세 게시물, 수정, 삭제 api 제공
+
+# ProjectSetup
++ 이클립스에 boardexmaple 프로젝트를 import
++ 마리아db에 example 데이터베이스 생성
++ 데이터베이스에 테이블 생성(create_table.txt)
+

@@ -1,11 +1,11 @@
-package kr.co.songjava.springjwt.repository;
+package kr.co.hwang.springjwt.repository;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import kr.co.songjava.springjwt.models.User;
+import kr.co.hwang.springjwt.models.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {

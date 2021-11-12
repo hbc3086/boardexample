@@ -1,4 +1,4 @@
-package kr.co.songjava.configuration;
+package kr.co.hwang.configuration;
 
 import java.util.List;
 import java.util.Locale;
@@ -16,9 +16,9 @@ import org.springframework.web.servlet.view.json.MappingJackson2JsonView;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.module.SimpleModule;
 
-import kr.co.songjava.configuration.servlet.handler.BaseHandlerInterceptor;
-import kr.co.songjava.framework.data.web.MySQLPageRequestHandleMethodArgumentResolver;
-import kr.co.songjava.mvc.domain.BaseCodeLabelEnum;
+import kr.co.hwang.configuration.servlet.handler.BaseHandlerInterceptor;
+import kr.co.hwang.framework.data.web.MySQLPageRequestHandleMethodArgumentResolver;
+import kr.co.hwang.mvc.domain.BaseCodeLabelEnum;
 
 @Configuration
 public class WebConfiguration implements WebMvcConfigurer {

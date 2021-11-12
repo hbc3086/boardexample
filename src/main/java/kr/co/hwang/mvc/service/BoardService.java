@@ -1,4 +1,4 @@
-package kr.co.songjava.mvc.service;
+package kr.co.hwang.mvc.service;
 
 import java.util.HashMap;
 import java.util.List;
@@ -7,11 +7,11 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import kr.co.songjava.framework.data.domain.PageRequestParameter;
-import kr.co.songjava.mvc.domain.Board;
-import kr.co.songjava.mvc.parameter.BoardParameter;
-import kr.co.songjava.mvc.parameter.BoardSearchParameter;
-import kr.co.songjava.mvc.repository.BoardRepository;
+import kr.co.hwang.framework.data.domain.PageRequestParameter;
+import kr.co.hwang.mvc.domain.Board;
+import kr.co.hwang.mvc.parameter.BoardParameter;
+import kr.co.hwang.mvc.parameter.BoardSearchParameter;
+import kr.co.hwang.mvc.repository.BoardRepository;
 
 /**
  * 게시판 서비스

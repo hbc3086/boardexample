@@ -1,4 +1,4 @@
-package kr.co.songjava.springjwt.security.services;
+package kr.co.hwang.springjwt.security.services;
 
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

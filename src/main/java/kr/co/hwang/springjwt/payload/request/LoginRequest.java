@@ -1,4 +1,4 @@
-package kr.co.songjava.springjwt.payload.request;
+package kr.co.hwang.springjwt.payload.request;
 
 import javax.validation.constraints.NotBlank;
 

@@ -1,4 +1,4 @@
-package kr.co.songjava.springjwt.models;
+package kr.co.hwang.springjwt.models;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,4 +1,4 @@
-package kr.co.songjava.configuration;
+package kr.co.hwang.configuration;
 
 import javax.sql.DataSource;
 
@@ -15,7 +15,7 @@ import org.springframework.context.annotation.Configuration;
  * Mybatis 설정
  */
 @Configuration
-@MapperScan(basePackages = "kr.co.songjava.mvc.repository")
+@MapperScan(basePackages = "kr.co.hwang.mvc.repository")
 public class MybatisConfiguration {
 
 	@Bean

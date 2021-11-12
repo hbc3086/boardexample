@@ -1,4 +1,4 @@
-package kr.co.songjava.springjwt.security.jwt;
+package kr.co.hwang.springjwt.security.jwt;
 
 import java.io.IOException;
 

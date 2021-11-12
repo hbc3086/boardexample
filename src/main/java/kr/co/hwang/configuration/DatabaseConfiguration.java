@@ -1,4 +1,4 @@
-package kr.co.songjava.configuration;
+package kr.co.hwang.configuration;
 
 import javax.sql.DataSource;
 

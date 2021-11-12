@@ -1,4 +1,4 @@
-package kr.co.songjava.springjwt.security.services;
+package kr.co.hwang.springjwt.security.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -7,8 +7,8 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import kr.co.songjava.springjwt.models.User;
-import kr.co.songjava.springjwt.repository.UserRepository;
+import kr.co.hwang.springjwt.models.User;
+import kr.co.hwang.springjwt.repository.UserRepository;
 
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {

@@ -1,4 +1,4 @@
-package kr.co.songjava.springjwt.security;
+package kr.co.hwang.springjwt.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -14,9 +14,9 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import kr.co.songjava.springjwt.security.jwt.AuthEntryPointJwt;
-import kr.co.songjava.springjwt.security.jwt.AuthTokenFilter;
-import kr.co.songjava.springjwt.security.services.UserDetailsServiceImpl;
+import kr.co.hwang.springjwt.security.jwt.AuthEntryPointJwt;
+import kr.co.hwang.springjwt.security.jwt.AuthTokenFilter;
+import kr.co.hwang.springjwt.security.services.UserDetailsServiceImpl;
 
 @Configuration
 @EnableWebSecurity

@@ -1,6 +1,6 @@
-package kr.co.songjava.configuration.exception;
+package kr.co.hwang.configuration.exception;
 
-import kr.co.songjava.configuration.http.BaseResponseCode;
+import kr.co.hwang.configuration.http.BaseResponseCode;
 
 public class BaseException extends AbstractBaseException {
 	

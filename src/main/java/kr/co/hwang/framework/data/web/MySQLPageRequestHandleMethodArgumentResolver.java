@@ -1,4 +1,4 @@
-package kr.co.songjava.framework.data.web;
+package kr.co.hwang.framework.data.web;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -11,7 +11,7 @@ import org.springframework.web.context.request.NativeWebRequest;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;
 import org.springframework.web.method.support.ModelAndViewContainer;
 
-import kr.co.songjava.framework.data.domain.MySQLPageRequest;
+import kr.co.hwang.framework.data.domain.MySQLPageRequest;
 
 /**
  * MySQL 쿼리 페이징 LIMIT, OFFSET 값을 자동계산하여 MysqlPageRequest 클래스 담아서 컨트롤러에서 받을 수 있게함.

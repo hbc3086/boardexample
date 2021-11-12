@@ -1,4 +1,4 @@
-package kr.co.songjava.springjwt.models;
+package kr.co.hwang.springjwt.models;
 
 public enum ERole {
 	ROLE_USER,

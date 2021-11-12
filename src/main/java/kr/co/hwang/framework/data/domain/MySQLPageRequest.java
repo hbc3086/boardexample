@@ -1,4 +1,4 @@
-package kr.co.songjava.framework.data.domain;
+package kr.co.hwang.framework.data.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 

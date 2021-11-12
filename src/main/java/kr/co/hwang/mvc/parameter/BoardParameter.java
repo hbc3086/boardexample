@@ -1,6 +1,6 @@
-package kr.co.songjava.mvc.parameter;
+package kr.co.hwang.mvc.parameter;
 
-import kr.co.songjava.mvc.domain.BoardType;
+import kr.co.hwang.mvc.domain.BoardType;
 import lombok.Data;
 
 /**

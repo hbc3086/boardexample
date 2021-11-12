@@ -1,4 +1,4 @@
-package kr.co.songjava.springjwt.payload.response;
+package kr.co.hwang.springjwt.payload.response;
 
 public class MessageResponse {
 	private String message;

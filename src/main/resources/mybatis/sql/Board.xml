@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="kr.co.songjava.mvc.repository.BoardRepository">
+<mapper namespace="kr.co.hwang.mvc.repository.BoardRepository">
 
-	<select id="getList" parameterType="kr.co.songjava.framework.data.domain.PageRequestParameter" resultType="kr.co.songjava.mvc.domain.Board">
+	<select id="getList" parameterType="kr.co.hwang.framework.data.domain.PageRequestParameter" resultType="kr.co.hwang.mvc.domain.Board">
 		SELECT
 			B.BOARD_SEQ,
 			B.BOARD_TYPE,
@@ -29,7 +29,7 @@
 		LIMIT #{pageRequest.limit}, #{pageRequest.offset}
 	</select>
 	
-	<select id="get" parameterType="int" resultType="kr.co.songjava.mvc.domain.Board">
+	<select id="get" parameterType="int" resultType="kr.co.hwang.mvc.domain.Board">
 		SELECT
 			B.BOARD_SEQ,
 			B.BOARD_TYPE,
@@ -40,7 +40,7 @@
 		WHERE B.BOARD_SEQ = #{boardSeq}
 	</select>	
 	
-	<insert id="save" parameterType="kr.co.songjava.mvc.parameter.BoardParameter" useGeneratedKeys="true" keyProperty="boardSeq">
+	<insert id="save" parameterType="kr.co.hwang.mvc.parameter.BoardParameter" useGeneratedKeys="true" keyProperty="boardSeq">
 		INSERT INTO T_BOARD
 		(
 			BOARD_TYPE,
@@ -74,7 +74,7 @@
 		</foreach>
 	</insert>		
 	
-	<update id="update" parameterType="kr.co.songjava.mvc.domain.Board">
+	<update id="update" parameterType="kr.co.hwang.mvc.domain.Board">
 		UPDATE T_BOARD
 		SET
 			BOARD_TYPE = #{boardType.code},

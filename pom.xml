@@ -9,10 +9,10 @@
 		<version>2.3.4.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>kr.co.songjava</groupId>
-	<artifactId>example-spring</artifactId>
+	<groupId>kr.co.hwang</groupId>
+	<artifactId>boardexample</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>example-spring</name>
+	<name>boardexample</name>
 	<description>Songjava project for Spring Boot</description>
 
 	<properties>

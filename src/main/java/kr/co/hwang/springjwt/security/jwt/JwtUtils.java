@@ -1,4 +1,4 @@
-package kr.co.songjava.springjwt.security.jwt;
+package kr.co.hwang.springjwt.security.jwt;
 
 import java.util.Date;
 
@@ -9,7 +9,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Component;
 
 import io.jsonwebtoken.*;
-import kr.co.songjava.springjwt.security.services.UserDetailsImpl;
+import kr.co.hwang.springjwt.security.services.UserDetailsImpl;
 
 @Component
 public class JwtUtils {

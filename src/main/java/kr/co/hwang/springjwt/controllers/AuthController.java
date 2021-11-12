@@ -1,4 +1,4 @@
-package kr.co.songjava.springjwt.controllers;
+package kr.co.hwang.springjwt.controllers;
 
 import java.util.HashSet;
 import java.util.List;
@@ -20,17 +20,17 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import kr.co.songjava.springjwt.models.ERole;
-import kr.co.songjava.springjwt.models.Role;
-import kr.co.songjava.springjwt.models.User;
-import kr.co.songjava.springjwt.payload.request.LoginRequest;
-import kr.co.songjava.springjwt.payload.request.SignupRequest;
-import kr.co.songjava.springjwt.payload.response.JwtResponse;
-import kr.co.songjava.springjwt.payload.response.MessageResponse;
-import kr.co.songjava.springjwt.repository.RoleRepository;
-import kr.co.songjava.springjwt.repository.UserRepository;
-import kr.co.songjava.springjwt.security.jwt.JwtUtils;
-import kr.co.songjava.springjwt.security.services.UserDetailsImpl;
+import kr.co.hwang.springjwt.models.ERole;
+import kr.co.hwang.springjwt.models.Role;
+import kr.co.hwang.springjwt.models.User;
+import kr.co.hwang.springjwt.payload.request.LoginRequest;
+import kr.co.hwang.springjwt.payload.request.SignupRequest;
+import kr.co.hwang.springjwt.payload.response.JwtResponse;
+import kr.co.hwang.springjwt.payload.response.MessageResponse;
+import kr.co.hwang.springjwt.repository.RoleRepository;
+import kr.co.hwang.springjwt.repository.UserRepository;
+import kr.co.hwang.springjwt.security.jwt.JwtUtils;
+import kr.co.hwang.springjwt.security.services.UserDetailsImpl;
 
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController

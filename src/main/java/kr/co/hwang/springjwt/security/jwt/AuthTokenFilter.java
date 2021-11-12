@@ -1,4 +1,4 @@
-package kr.co.songjava.springjwt.security.jwt;
+package kr.co.hwang.springjwt.security.jwt;
 
 import java.io.IOException;
 
@@ -17,7 +17,7 @@ import org.springframework.security.web.authentication.WebAuthenticationDetailsS
 import org.springframework.util.StringUtils;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import kr.co.songjava.springjwt.security.services.UserDetailsServiceImpl;
+import kr.co.hwang.springjwt.security.services.UserDetailsServiceImpl;
 
 public class AuthTokenFilter extends OncePerRequestFilter {
 	@Autowired

@@ -1,4 +1,4 @@
-package kr.co.songjava.configuration;
+package kr.co.hwang.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -27,7 +27,7 @@ public class SwaggerConfiguration {
 		Docket docket = new Docket(DocumentationType.SWAGGER_2);
 		docket.apiInfo(apiInfo.build());
 		
-		ApiSelectorBuilder apis = docket.select().apis(RequestHandlerSelectors.basePackage("kr.co.songjava"));
+		ApiSelectorBuilder apis = docket.select().apis(RequestHandlerSelectors.basePackage("kr.co.hwang"));
 		apis.paths(PathSelectors.ant("/**"));
 		
 		return apis.build();

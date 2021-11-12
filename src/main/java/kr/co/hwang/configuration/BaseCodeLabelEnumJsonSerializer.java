@@ -1,4 +1,4 @@
-package kr.co.songjava.configuration;
+package kr.co.hwang.configuration;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -9,7 +9,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonSerializer;
 import com.fasterxml.jackson.databind.SerializerProvider;
 
-import kr.co.songjava.mvc.domain.BaseCodeLabelEnum;
+import kr.co.hwang.mvc.domain.BaseCodeLabelEnum;
 
 /**
  * JSON 변환시 BaseCodeLabelEnum 클래스에 대한 변환을 동일하게 처리.

@@ -1,4 +1,4 @@
-package kr.co.songjava.configuration.servlet.handler;
+package kr.co.hwang.configuration.servlet.handler;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

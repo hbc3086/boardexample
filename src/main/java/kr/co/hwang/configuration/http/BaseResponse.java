@@ -1,4 +1,4 @@
-package kr.co.songjava.configuration.http;
+package kr.co.hwang.configuration.http;
 
 import lombok.Data;
 

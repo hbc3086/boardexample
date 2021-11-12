@@ -1,4 +1,4 @@
-package kr.co.songjava.mvc.domain;
+package kr.co.hwang.mvc.domain;
 
 /**
  * 기본 CodeLabelEnum.

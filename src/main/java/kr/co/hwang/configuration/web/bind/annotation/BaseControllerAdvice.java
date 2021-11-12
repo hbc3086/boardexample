@@ -1,4 +1,4 @@
-package kr.co.songjava.configuration.web.bind.annotation;
+package kr.co.hwang.configuration.web.bind.annotation;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.context.request.WebRequest;
 
-import kr.co.songjava.configuration.exception.BaseException;
-import kr.co.songjava.configuration.http.BaseResponse;
+import kr.co.hwang.configuration.exception.BaseException;
+import kr.co.hwang.configuration.http.BaseResponse;
 
 @ControllerAdvice
 public class BaseControllerAdvice {

@@ -1,4 +1,4 @@
-package kr.co.songjava.mvc.controller;
+package kr.co.hwang.mvc.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,15 +22,15 @@ import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
-import kr.co.songjava.configuration.exception.BaseException;
-import kr.co.songjava.configuration.http.BaseResponse;
-import kr.co.songjava.configuration.http.BaseResponseCode;
-import kr.co.songjava.framework.data.domain.MySQLPageRequest;
-import kr.co.songjava.framework.data.domain.PageRequestParameter;
-import kr.co.songjava.mvc.domain.Board;
-import kr.co.songjava.mvc.parameter.BoardParameter;
-import kr.co.songjava.mvc.parameter.BoardSearchParameter;
-import kr.co.songjava.mvc.service.BoardService;
+import kr.co.hwang.configuration.exception.BaseException;
+import kr.co.hwang.configuration.http.BaseResponse;
+import kr.co.hwang.configuration.http.BaseResponseCode;
+import kr.co.hwang.framework.data.domain.MySQLPageRequest;
+import kr.co.hwang.framework.data.domain.PageRequestParameter;
+import kr.co.hwang.mvc.domain.Board;
+import kr.co.hwang.mvc.parameter.BoardParameter;
+import kr.co.hwang.mvc.parameter.BoardSearchParameter;
+import kr.co.hwang.mvc.service.BoardService;
 
 /**
  * 게시판 컨트롤러

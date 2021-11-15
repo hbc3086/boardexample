@@ -97,7 +97,7 @@ export default {
           path: '/signin',
         });
       } catch (error) {
-        alert(error.response.data.error);
+        alert('다시 시도해주세요.');
       }
     },
   },

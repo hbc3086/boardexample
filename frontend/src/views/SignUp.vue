@@ -14,7 +14,7 @@
             type="text"
             class="form-control"
             name="id"
-            placeholder="아이디를 입력해 주세요"
+            placeholder="아이디를 입력해 주세요 (4자리 이상)"
             value
           />
         </div>
